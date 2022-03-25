@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1",
+    "scroll-out": "^2.2.12",
+    "splitting": "^1.0.6"
+  }
+}

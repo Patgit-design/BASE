@@ -1,0 +1,87 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 25 March 2022 8 h 41 min
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.4
+WORDPRESS:	5.9.2
+PHP INFO:	8.0.1 | SAPI: apache2handler
+SERVER:		Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.0.1 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 4MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][NOTICE] MSG:Only variables should be passed by reference [CODE:8|FILE:C:\MAMP\htdocs\ZELE CONCEPT\wp-content\plugins\duplicator\classes\package\class.pack.database.php|LINE:391]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Handler::error, DUP_Handler::getMessage
+SQL CREATED: 20220325_zeleconcept_10acac00951c1c539612_20220325084132_database.sql
+SQL FILE SIZE: 412.52KB (422420)
+SQL FILE TIME: 2022-03-25 08:41:43
+SQL RUNTIME: 0.64 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/MAMP/htdocs/ZELE CONCEPT
+ARCHIVE FILE: 20220325_zeleconcept_10acac00951c1c539612_20220325084132_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	89.7MB
+STATS:	Dirs 662 | Files 7,958
+SQL ADDED: 20220325_zeleconcept_10acac00951c1c539612_20220325084132_database.sql
+ZipArchive Object
+(
+    [lastId] => 8619
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8620
+    [filename] => C:\MAMP\htdocs\ZELE CONCEPT\wp-content\backups-dup-lite\tmp\20220325_zeleconcept_10acac00951c1c539612_20220325084132_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 8619
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 47.8MB
+ARCHIVE RUNTIME: 41.43 sec.
+MEMORY STACK: 4MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/MAMP/htdocs/ZELE CONCEPT/wp-content/backups-dup-lite/tmp/20220325_zeleconcept_10acac00951c1c539612_20220325084132_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 412.52KB
+INSTALLER FILE: 64.6KB
+ARCHIVE FILE: 48.9MB 
+EXPECTED FILE/DIRECTORY COUNT: 8,620
+ACTUAL FILE/DIRECTORY COUNT: 8,619
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 43.14 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20220325_zeleconcept 25 March 2022 8 h 42 min
+
